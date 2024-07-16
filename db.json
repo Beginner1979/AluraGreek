@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": "0963",
+      "nombre": "Leonardo",
+      "precio": "21323",
+      "imagen": "blob:http://127.0.0.1:5500/cb04c657-8388-442c-b541-aa5a33d42927"
+    }
+  ]
+}

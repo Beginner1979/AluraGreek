@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="./img/Header.png" alt="AluraGeek">
+    </header>
+    <main>
+        <div class="container">
+            <h1>AGREGAR PRODUCTO:</h1>
+            <form id="product-form">
+                <input type="text" name="nombre" placeholder="nombre..." required>
+                <input type="number" name="precio" placeholder="precio..." required>
+                <input type="file" name="imagen" placeholder="imagen..." required>
+                <div class="buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </div>
+        <section class="no-products">
+            <h1>Productos</h1>
+            <p>No se han agregado productos.</p>
+        </section>
+        <section class="products-list"></section>
+    </main>
+    <footer>
+        <img src="./img/Footer.png" alt="Footer Image">
+    </footer>
+    <script src="js/api.js" type="module"></script>
+    <script src="js/listProducts.js" type="module"></script>
+    <script src="js/addProduct.js" type="module"></script>
+</body>
+</html>
